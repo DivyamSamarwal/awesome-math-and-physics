@@ -10,4 +10,4 @@ This project has been coded in LaTeX using Texmaker.
 ## Mathematics
 ### Calculus 
 - Problems in Calculus of One Variable: I A Maron
-- [Wikpedia](https://en.wikipedia.org/wiki/Calculus)) 
+- [Wikpedia](https://en.wikipedia.org/wiki/Calculus) 
