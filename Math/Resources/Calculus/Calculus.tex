@@ -1,0 +1,58 @@
+\documentclass[twocolumn, 10pt]{article}
+\usepackage{amsmath}
+\begin{document}
+\section{Functions}
+25 May 2023
+\subsection{Functions. Domain of Definition}
+The independent variable $x$ is defined by a set $X$ of its values.
+If to each value of the independent variable $x \in X$ there corresponds
+one definite value of another variable $y$, then $y$ is called
+the function of $x$ with a domain of definition (or domain) $X$ or,
+in functional notation, $y=y(x)$, or $y=f(x)$, or $y=\varphi(x)$, and so
+forth. The set of values of the function $y(x)$ is called the range
+of the given function.
+
+\subsection{Investigation of Functions}
+A function $f(x)$ defined on the set $X$ is said to be non-decreasing
+on this set (respectively, increasing, non-increasing, decreasing), if
+for any numbers $x_1,x_2 \in X, x_1<x_2$ the inequality $f(x_1)\le f(x_2)$ (respectively, $f(x_1)<f(x_2),f(x_1)\ge f(x_2),f(x_1)>f(x_2)$ )  is satisfied.The function $f (x)$ is said to be monotonic on the set $X$ if it possesses one of the four indicated properties. The function $f(x)$ is said to be bounded above (or below) on the set $X$ if there exists a number $M(or\thickspace m)$ such that $f(x)\le M \thickspace \forall \thickspace x \in X$.  The function $f(x)$ is said to be bounded on the set $X$ if it is bounded above and below.
+The function $f(x)$ is called periodic if there exists a number
+$T > 0$ such that $f(x + T)=f(x)$ for all $x$ belonging to the domain
+of definition of the function (together with any point $x$ the point
+$x+T$ must belong to the domain of definition). The least number $T$
+possessing this property (if such a number exists) is called the
+period of the function $f(x)$. The function $f(x)$ takes on the maximum value at the point $x_o\in X$ if $f(x_o)\ge f(x)$ for all $x\in X$, and the minimum value if if $f(x_o) \le f(x)$ for all $x \in X$. A function $f(x)$ defined on a set $X$ which is symmetric $w.r.t$ origin of coordinates is called even if $f(-x)=f(x)$, and odd if $f(x)=-f(x)$.
+
+\subsection{Inverse of Function}
+Let the function $y=f(x)$ be defined on the set $X$ and have a
+range $Y$. If for each $y \in Y$ there exists a single value of $x$ such that $f(x) = y$, then this correspondence defines a certain function $x = g (y)$ called inverse $w.r.t$ given function $y= f(x)$. The sufficient condition for the existence of an inverse function is a strict monotony of the original function $y = f (x)$. If the function increases(decreases), then the inverse function also increases (decreases). The graph of the inverse function $x = g (y)$ coincides with that of the function $y=f(x)$ if the independent variable is marked off along the $y-axis$. If the independent variable is laid off along the $x$-axis,i. e. if the inverse function is written in the form $y = g (x)$, then the graph of the inverse function will be symmetric to that of the function $y = f (x)$ with respect to the bisector of the first and third quadrants.
+
+\section{Limits}
+\subsection{Existence}
+Limit of function $f(x)$ is said to exist as $x \to a$ when,
+$$\lim_{h \to 0^+} f(a-h)=\lim_{h \to 0^+} f(a+h)$$ equal to some finite value $L$.
+\subsection{Indeterminate forms}
+There are only seven indeterminate forms \\
+$\frac{0}{0},\frac{\infty}{\infty},0 \times \infty, \infty - \infty, \infty^0, 0^0 \thickspace and \thickspace 1^{\infty}.$
+\subsection{List of limits}
+\textbf{Limits Operations} \\
+If $\lim_{x \to c} f(x)=L$
+\begin{itemize}
+\item $\lim_{x \to c} [f(x \pm a)]=L \pm a$
+\item $\lim_{x \to c} af(x)=aL$
+\item $\lim_{x \to c} \frac{1}{f(a)}= \frac{1}{L}$ for $L>0$
+\item $\lim_{x \to c} f(x)^n=L^n$ for $n>0$
+\end{itemize}
+\textbf{Involving infinitesimal changes} \\
+If infinitesimal change $h$ if denote by $\Delta x$. If $f(x)$ and $g(x)$ are differentiable at $x$.
+\begin{itemize}
+\item $\lim_{h \to 0} \frac{f(x+h)-f(x)}{h}=f'(x)$
+\item $\lim_{h \to 0} \frac{fog(x+h)-fog(x)}{h}=f'[g(x)]g'(x)$
+\item $\lim_{h \to 0} \frac{f(x+h)g(x+h)-f(x)g(x)}{h}=f'(x)g(x)+f(x)g'(x)$
+\item $\lim_{h \to 0}( \frac{f(x+h)}{f(x)} )^{\frac{1}{h}}=exp(\frac{f'(x)}{f(x)})$
+\item $\lim_{h \to 0}( \frac{f(e^h x)}{f(x)} )^{\frac{1}{h}}=exp(\frac{xf'(x)}{f(x)})$
+
+\end{itemize}
+
+
+\end{document}
