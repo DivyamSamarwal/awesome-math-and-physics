@@ -119,4 +119,71 @@ $$secx = x + \frac{x^{2}}{2}+ \frac{5x^{4}}{24}+...+ \infty$$
 $$arcsinx/sin^{-1}x = x + \frac{x^{3}}{6}+ \frac{3x^{5}}{40}+...+ \infty$$
 $$arccosx/cos^{-1}x = \frac{\pi}{2}- (x + \frac{x^{3}}{6}+ \frac{3x^{5}}{40}+...)$$
 $$arctanx/tan^{-1}x = x - \frac{x^{3}}{3}+ \frac{x^{5}}{5}+...+ \infty$$
+\section{Differentiation}
+26 May 2023
+\subsection{Elementary functions}
+\begin{itemize}
+\item $\frac{d}{dx} (x^n)=nx^{n-1}$
+\item $\frac{d}{dx} (a^x)=a^x lna$
+\item $\frac{d}{dx} (lnx)=\frac{1}{x}$
+\item $\frac{d}{dx} (log_a x)=\frac{1}{xlna}$
+\item $\frac{d}{dx} (sinx)=cosx$
+\item $\frac{d}{dx} (cosx)=-sinx$
+\item $\frac{d}{dx} (secx)=secxtanx$
+\item $\frac{d}{dx} (cosecx)=-cosecxcotx$
+\item $\frac{d}{dx} (tanx)=sec^2x$
+\item $\frac{d}{dx} (cotx)=-cosec^2x$
+\end{itemize}
+\subsection{Basic Theorems}
+\begin{itemize}
+\item $\frac{d}{dx} (f \pm g)=f'(x) \pm g'(x)$
+\item $\frac{d}{dx} (kf(x)=k\frac{d}{dx}(f(x))$
+\item $\frac{d}{dx} (f(x).g(x))=f(x)g'(x)+g(x)f'(x)$
+\item $\frac{d}{dx} (\frac{f(x)}{g(x)})=\frac{g(x)f'(x)-g'(x)f(x)}{g^2(x)}$
+\item $\frac{d}{dx} (f(g(x)))=f'(g(x))g'(x)$
+\end{itemize}
+\subsection{Inverse Trigonometric Functions}
+\begin{itemize}
+\item $\frac{d}{dx} (sin^{-1}x)=\frac{1}{\sqrt{1-x^2}}$
+\item $\frac{d}{dx} (cos^{-1}x)=\frac{-1}{\sqrt{1-x^2}}$
+\item $\frac{d}{dx} (tan^{-1}x)=\frac{1}{1+x^2}$
+\item $\frac{d}{dx} (cot^{-1}x)=\frac{-1}{1+x^2}$
+\item $\frac{d}{dx} (sec^{-1}x)=\frac{1}{|x| \sqrt{x^2-1}}$
+\item $\frac{d}{dx} (cosec^{-1}x)=\frac{-1}{|x| \sqrt{x^2-1}}$
+\end{itemize}
+\subsection{Using Substitution}
+\begin{itemize}
+\item  $\sqrt{x^2+a^2} \implies x=atan \theta$
+\item  $\sqrt{a^2-x^2} \implies x=asin \theta$
+\item  $\sqrt{x^2-a^2} \implies x=asec \theta$
+\item  $\sqrt{\frac{x+a}{a-x}} \implies x=acos \theta$
+\end{itemize}
+\subsection{Parametric Differentiation}
+If $y=f(\theta)$ and $x=g(\theta)$ where $\theta$ is parameter then
+$$\frac{dy}{dx} = \frac{\frac{dy}{d\theta}}{\frac{dx}{d\theta}}$$
+\subsection{Derivative of Determinant}
+If $F(x)= 
+\begin{vmatrix}
+f(x) & g(x) & h(x)\\
+l(x) & m(x) & n(x)\\
+u(x) & v(x) & w(x)
+\end{vmatrix}$
+where $f,g,h,l,m,n,u,v,w$ are differentiable functions, then
+$F'(x)= \begin{vmatrix}
+f'(x) & g'(x) & h'(x)\\
+l(x) & m(x) & n(x)\\
+u(x) & v(x) & w(x)
+\end{vmatrix} +
+\begin{vmatrix}
+f(x) & g(x) & h(x)\\
+l'(x) & m'(x) & n'(x)\\
+u(x) & v(x) & w(x)
+\end{vmatrix} +
+\begin{vmatrix}
+f(x) & g(x) & h(x)\\
+l(x) & m(x) & n(x)\\
+u'(x) & v'(x) & w'(x)
+\end{vmatrix}
+$
+
 \end{document}
