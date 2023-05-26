@@ -1,5 +1,5 @@
 \documentclass[twocolumn, 10pt]{article}
-\usepackage{amsmath}
+\usepackage{amsmath,tikz}
 \begin{document}
 \section{Functions}
 25 May 2023
@@ -185,5 +185,46 @@ l(x) & m(x) & n(x)\\
 u'(x) & v'(x) & w'(x)
 \end{vmatrix}
 $
+\section{Application of Derivatives}
+\subsection{Equation of Tangent and Normal}
+Tangent at $(x_1,y_1)$ is given by $$(y-y_1)=f'(x_1)(x-x_1)$$ when $f'(x_1)$ is real and Normal at $(x_1,y_1)$ is given by $$(y-y_1)=\frac{-1}{f'(x_1)}(x-x_1)$$ when $f'(x_1)$ is non-zero and real.\\
+\textbf{Tangent from an external point} \\
+Given a point $\delta(a,b)$ which does not lie on the curve $y=f(x)$
+then equation of possible tangents to the curve $y=f(x)$ passing through $(a,b)$ can be found by solving for point of contact $\lambda$
+$$f'(h)=\frac{f(h)-b}{h-a}$$ 
+and equation of tangent $$ y-b=\frac{f(h)-b}{h-a} (x-a) $$ \\
+\textbf{Length of tangent,normal,sub-tangent,sub-normal} from point $\sigma(h,k)$ and slope $m$\\
+Length of Tangent $=|k|\sqrt{1+ \frac{1}{m^2}}$ \\
+Length of Normal  $=|k|\sqrt{1+ m^2}$ \\
+Length of Sub-Tangent $=|\frac{k}{m}|$ \\
+Length of Sub-Normal $=|km|$ \\
+\textbf{Angle between the curves}
+$$tan\theta=|\frac{m_1-m_2}{1+m_1m_2}|$$
+\subsection{Theorems}
+\textbf{Rolle's Theorem}\\
+If a function $f$ defined on $[a,b]$ and
+\begin{itemize} 
+\item  continuous on $[a,b]$
+\item derivable on $(a,b)$ 
+\item $f(a)=f(b)$
+\end{itemize}
+then there exists at least one real number c between a and b $(a<c<b)$
+such that $f'(c)=0.$ \\
+\textbf{Lagrange's Mean Value Theorem } \\
+If a function $f$ defined on $[a,b]$ and
+\begin{itemize} 
+\item  continuous on $[a,b]$
+\item derivable on $(a,b)$
+\end{itemize}
+then there exists at least one real number c between a and b $(a<c<b)$
+such that $$f'(c)=\frac{f(b)-f(a)}{b-a} $$
+\textbf{Cauchy's Mean Value theorem}\\
+If functions $f$  and $g$ defined on $[a,b]$ and
+\begin{itemize} 
+\item  continuous on $[a,b]$
+\item derivable on $(a,b)$
+\item $c \in (a,b)$ then
+$$\frac{f'(c)}{g'(c)}=\frac{f(b)-f(a)}{g(b)-g(a)}$$
+\end{itemize}
 
 \end{document}
