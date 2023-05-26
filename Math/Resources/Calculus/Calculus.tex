@@ -226,5 +226,26 @@ If functions $f$  and $g$ defined on $[a,b]$ and
 \item $c \in (a,b)$ then
 $$\frac{f'(c)}{g'(c)}=\frac{f(b)-f(a)}{g(b)-g(a)}$$
 \end{itemize}
-
+\subsection{Maxima and Minima}
+If a function $y=f(x)$ is defined on interval $X$, then an interior point $x_o$ of interval is called the point of $maximum$ of function $f(x)$ [the point of $minimum$ of function $f(x)$] if there exists a neighbourhood $U \in X$ of point $x_o$ such that inequality $f(x) \le f(x_o)[f(x) \ge f(x_o)]$ holds true within it.\\
+\textbf{A Necessary condition for the existence of an  Extremum}\\ At points of extremum the derivative $f'(x)$ is equal to zero or does not exist. The points at which $f'(x)=0$ or does not exit are called $critical \thickspace points.$\\
+\textbf{Sufficient conditions for the existence of an Extremum} \\
+1. Let the function $f(x)$ be continuous in some neighbourhood of point $x_o$
+\begin{itemize}
+\item If $f'(x)>0$ at $x<x_o$ and $f'(x)<0$ at $x>x_o$ (i.e if in moving from left to right through point $x_o$ the derivative changes
+sign from plus to minus), then at point $x_o$ the function reaches $maximum.$
+\item If $f'(x)<0$ at $x<x_o$ and $f'(x)>0$ at $x>x_o$ (i.e if in moving through the point $x_o$ from left to right the derivative changes sign from minus to plus ), then at point $x_o$ the function reaches $minimum.$
+\item If the derivative does not change sign in moving through the point $x_o$, then there is no $extremum.$
+\end{itemize}
+2. Let the function $f(x)$ be twice differentiable (that is $f'(x_o)=0$) at a critical point $x_o$. If $f''(x_o)<0$ then at $x_o$ the function has a $maximum$; if $f'(x_o)>0$ then at $x_o$ the function has $minimum$ but if $f''(x_o)=0$ then the question of existence of $extremum$ at this point remains open. \\
+3. Let $f(x_o)=f''(x_o)=...=f^{n-1}(x_o)=0$, but $f^n(x_o) \not= 0$. If $n$ is even, then at $f^n(x_o)<0$ there is a $maximum$ at $x_o$, and at point $f^n(x_o)>0$, a $minimum$.If $n$ is odd then there is no $extremum$ at point $x_o$. \\
+4.Let the function $y=f(x)$ be represented parametrically:
+$$x=\varphi(t), \thickspace y=\psi(t)$$ where the functions $\varphi(t)$ and $\psi(t)$ have derivatives both of first and second orders within a certain interval of change of argument $t$, and $\varphi'(t) \not=0$. Further, let, at $t=t_o$
+$$\psi'(t)=0$$
+Then:
+\begin{itemize}
+\item If $\psi''(t_o)<0,$ the function $y=f(x)$ has a $maximum$ at $x=x_o=\varphi(t_o)$
+\item If $\psi''(t_o)>0,$ the function $y=f(x)$ has a $minimum$ at $x=x_o=\varphi(t_o)$
+\item If $\psi''(t_o)=0,$ the question of existence of $extremum$ remains open.
+\end{itemize}
 \end{document}
