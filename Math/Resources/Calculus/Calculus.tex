@@ -1,5 +1,5 @@
 \documentclass[twocolumn, 10pt]{article}
-\usepackage{amsmath,tikz}
+\usepackage{amsmath,amsthm,amssymb}
 \begin{document}
 \section{Functions}
 25 May 2023
@@ -249,6 +249,7 @@ Then:
 \item If $\psi''(t_o)=0,$ the question of existence of $extremum$ remains open.
 \end{itemize}
 \section{Integration}
+27 May 2023
 \subsection{Standard Formula}
 \begin{itemize}
 \item $\int(ax+b)^n dx=\frac{(ax+b)^{n+1}}{a(n+1)}+c$
@@ -303,5 +304,65 @@ Put $px+q=t^2$ \\\\
 \item $\int_{a}^{b}f(x)dx=\int_{a}^{b}f(t)dt$
 \item $\int_{a}^{b}f(x)dx=-\int_{b}^{a}f(x)dx$
 \item $\int_{a}^{b}f(x)dx=\int_{a}^{c}f(x)dx+\int_{c}^{b}f(x)dx$
+\item $\int_{-a}^{a}f(x)dx=\int_{0}^{a}(f(x)+f(-x))dx=$ $\begin{cases}
+  2\int_{0}^{a}f(x)dx,f(-x)=f(x)\\
+  0,f(-x)=f-(x)
+\end{cases}$
+\item $\int_{a}^{b}f(x)dx=\int_{a}^{b}f(a+b-x)dx$
+\item $\int_{0}^{a}f(x)dx + \int_{0}^{f(a)}f^{-1}(x)dx = af(a)$
 \end{itemize}
+
+\textbf{If $f(x)$ is a periodic function with period $T$}
+\begin{itemize}
+\item $\int_{0}^{nT}f(x)dx=n\int_{0}^{T}f(x)dx,n \in \mathbb{Z}$
+\item $\int_{a}^{a+nT}f(x)dx=n\int_{0}^{T}f(x)dx, n \in \mathbb{Z},a \in \mathbb{R}$
+\item $\int_{mT}^{nT}f(x)dx=(n-m)\int_{0}^{T}f(x)dx, m,n \in \mathbb{Z}$
+\item $\int_{nT}^{a+nT}f(x)dx=\int_{0}^{a}f(x)dx, n \in \mathbb{Z}, a \in \mathbb{R}$
+\item $\int_{a+nT}^{b+nT}f(x)dx=\int_{0}^{a}f(x)dx,n \in \mathbb{Z}, a,b \in \mathbb{R}$
+\end{itemize}
+\subsubsection{Inequalities}
+1. If $\Psi(x) \le f(x) \le \phi(x)$  for $a \le x \le b$,then
+$$\int_{a}^{b}\Psi(x)dx \le \int_{a}^{b}f(x)dx \le \int_{a}^{b}\phi(x)dx$$
+2. If $m \le f(x) \le M$ for $a \le x \le b$,then 
+$$m(b-a) \le \int_{a}^{b}f(x)dx \le M(b-a)$$
+3. If $f(x) \ge 0$ on $[a,b]$,then $$\int_{a}^{b}f(x)dx \ge 0$$
+\subsubsection{Leibniz Theorem} 
+If $\varphi(x)=\int_{g(x)}^{h(x)}f(t)dt$, then
+$$\frac{d}{dx}(\varphi(x))=h'(x)f(h(x))-g'(x)f(g(x))$$
+\section{Other Integrals}
+\subsection{Wallis' Integral}
+$$\int_{0}^{\frac{\pi}{2}} sin^{n}xdx/\int_{0}^{\frac{\pi}{2}} cos^{n}xdx=
+\begin{cases}
+  \frac{\pi}{2}\frac{(n-1)!}{n!}, \text{n is even}\ \\
+  
+  \frac{(n-1)!}{n!},\text{n is odd}\
+\end{cases} $$
+\subsection{Pi Function}
+$$\Pi(n)= \int_{0}^{\infty}x^{n}e^{-x}dx$$
+
+Properties:
+\begin{itemize}
+\item $\Pi(n+1)=(n+1) \Pi(n)$
+\item $\Pi(0)=1 \implies \Pi(n)=n!$
+\end{itemize}
+\subsection{Gamma Function}
+$$\Gamma(n)=\Pi(n-1)= \int_{0}^{\infty}x^{n-1}e^{-x}dx$$
+
+Some Properties:
+\begin{itemize}
+\item $\Gamma(n+1)=n \Gamma(n)$
+\item $\Gamma(n)=(n-1)!, \thickspace \Gamma(\frac{n}{2})=\frac{2^{(1-n)} (n-1)!\sqrt{\pi}}{(\frac{n-1}{2})!}$
+\end{itemize}
+\subsection{Gaussian Integral}
+$$\int_{-\infty}^{\infty}e^{-x^{2}}dx=\sqrt{\pi}$$
+\subsubsection{Gaussian Integral Proof}
+\begin{proof}
+Substitute $x^2=u \implies 2xdx=du$ \\
+$$\int_{-\infty}^{\infty}e^{-x^{2}}dx \implies \frac{1}{2}\int_{-\infty}^{\infty} u^{-\frac{1}{2}}e^{-u}du$$
+Using property $[\int_{-a}^{a}f(x)dx=2 \int_{0}^{a}f(x)dx]$ for $[f(-x)=f(x)]$ \\
+$$=\int_{0}^{\infty} u^{-\frac{1}{2}}e^{-u}du$$
+It is type of $\Gamma(n)$ for $n=\frac{1}{2}$
+$$\Gamma(\frac{1}{2})=\sqrt{\pi}$$
+Hence proved.
+\end{proof}
 \end{document}
