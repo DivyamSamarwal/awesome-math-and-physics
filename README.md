@@ -8,6 +8,7 @@ This project has been coded in LaTeX using Texmaker.
 
 # References
 ## Mathematics
+- Penguin Dictionary of Mathematics: David Nelson
 ### Calculus 
 - Problems in Calculus of One Variable: I A Maron
-- [Wikipedia](https://en.wikipedia.org/wiki/Calculus) 
+- [Wikipedia](https://en.wikipedia.org/wiki/Calculus)
