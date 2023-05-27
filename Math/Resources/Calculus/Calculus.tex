@@ -264,6 +264,44 @@ Then:
 \item $\int secxdx=ln(secx+tanx)+c$
 \item $\int cosexdx=ln(cosecx-cotx)+c$
 \item $\int \frac{dx}{\sqrt{a^2-x^2}}=sin^{-1}(\frac{x}{a})+c$
-\item $\int \frac{dx}{a^2+x^2}=\frac{1}{a}tan^{-1}\frac{x}{a}+c$
+\item $\int \frac{dx}{a^2+x^2}=\frac{1}{a}tan^{-1}(\frac{x}{a})+c$
+\item $\int \frac{dx}{|x|\sqrt{x^2-a^2}}=\frac{1}{a}sec^{-1}(\frac{x}{a})+c$
+\item $\int \frac{dx}{\sqrt{x^2+a^2}}=ln[{x+\sqrt{x^2+a^2}}]+c$
+\item $\int \frac{dx}{a^2-x^2}=\frac{1}{2a}ln|\frac{a+x}{a-x}|+c$
+\item $\int \frac{dx}{x^2-a^2}=\frac{1}{2a}ln|\frac{x-a}{x+a}|+c$
+\item $\int \sqrt{a^2-x^2}dx=\frac{x}{2}\sqrt{a^2-x^2}+\frac{a^2}{2}sin^{-1}(\frac{x}{a})+c$
+\item $\int \sqrt{x^2+a^2}dx=\frac{x}{2}\sqrt{x^2+a^2}+\frac{a^2}{2}ln(\frac{x+\sqrt{x^2+a^2}}{a})+c$
+\item $\int \sqrt{x^2-a^2}dx=\frac{x}{2}\sqrt{x^2-a^2}-\frac{a^2}{2}ln(\frac{x+\sqrt{x^2-a^2}}{a})+c$
+\end{itemize}
+\subsection{Integration of types}
+1. $\int \frac{dx}{ax^2+bx+c},\int \frac{dx}{\sqrt{ax^2+bx+c}},\int \sqrt{ax^2+bx+c} \medspace dx$\\ $\implies$ Put $x+\frac{b}{2a}=t$\\ \\
+2. $\int \frac{px+q}{ax^2+bx+c}dx,\int \frac{px+q}{\sqrt{ax^2+bx+c}}dx$,\\$\int(px+q)\sqrt{ax^2+bx+c} \medspace dx \implies$ \\
+Put $x+\frac{b}{2a}=t$ then split the integral. \\ \\
+3. $\int \frac{dx}{a+bsin^2x}, \int \frac{dx}{a+bcos^2x},\int \frac{dx}{asin^2x+bsinxcosx+ccos^2x}$ \\
+$\implies$ Put $tanx=t$ \\ \\
+4. $\int \frac{dx}{a+bsinx}, \int \frac{dx}{a+bcosx},\int \frac{dx}{a+bsinx+ccosx}$ \\
+$\implies$ Put $tan(\frac{x}{2})=t$ \\ \\
+5. $\int \frac{dx}{(ax+b)\sqrt{px+q}},\int \frac{dx}{(ax^2+bx+c)\sqrt{px+q}} \implies$ \\
+Put $px+q=t^2$ \\\\
+6. $\int \frac{dx}{(ax+b)\sqrt{px^2+qx+r}} \implies$ Put $ax+b=\frac{1}{t}$ \\\\
+7. $\int \frac{dx}{ax^2+b\sqrt{px^2+q}} \implies$ Put $x=\frac{1}{t}$ \\\\
+8. $\int \frac{x^2+1dx}{x^4+\lambda x^2+1}$ where $\lambda$ is any constant $\implies$ Divide numerator and denominator by $x^2$ and Put $x \mp \frac{1}{x}=t$
+\subsection{Reduction Forms}
+\begin{itemize}
+\item $\int sin^{n}xdx= \frac{-sin^{n-1}xcosx}{n}+ \frac{n-1}{n} \int sin^{n-2}xdx$ 
+\item $\int cos^{n}xdx= \frac{cos^{n-1}xsinx}{n}+ \frac{n-1}{n} \int cos^{n-2}xdx$
+\item $\int e^{ax}sinbxdx = \frac{e^{ax}}{a^2+b^2}(asinbx-bcosbx)$
+\item $\int e^{ax}cosbxdx = \frac{e^{ax}}{a^2+b^2}(acosbx+bsinbx)$
+\item $\int (lnx)^{n}dx = x(lnx)^{n} -n \int (lnx)^{n-1}dx$
+\item \textbf{For n$>$1} 
+\item $\int tan^{n}xdx= \frac{tan^{n-1}x}{n-1}- \int tan^{n-2}xdx$ 
+\item $\int sec^{n}xdx= \frac{sec^{n-1}xsinx}{n-1}+ \frac{n-2}{n-1} \int sec^{n-2}xdx$ 
+\end{itemize}
+\subsection{Definite Integration}
+\subsubsection{Properties}
+\begin{itemize}
+\item $\int_{a}^{b}f(x)dx=\int_{a}^{b}f(t)dt$
+\item $\int_{a}^{b}f(x)dx=-\int_{b}^{a}f(x)dx$
+\item $\int_{a}^{b}f(x)dx=\int_{a}^{c}f(x)dx+\int_{c}^{b}f(x)dx$
 \end{itemize}
 \end{document}
