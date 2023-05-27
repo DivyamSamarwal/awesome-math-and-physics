@@ -1,5 +1,5 @@
 This repository contains of material of [Physics]() and [Mathematics](https://github.com/DivyamSamarwal/awesome-math-and-physics/tree/main/Math/Resources)( High School and Early University level).
-This project has been coded in LaTeX using Texmaker.
+This project has been coded in LaTeX using Texmaker. You can make changes to .tex files in given folders and compile them using any online LaTeX compiler(for eg. [CoCalc](https://cocalc.com/features/latex-editor) and [Overleaf](https://www.overleaf.com/)) or Texmaker.
 # Table of Contents
 ## [Mathematics](https://github.com/DivyamSamarwal/awesome-math-and-physics/tree/main/Math/Resources)
 ### [Algebra](https://github.com/DivyamSamarwal/awesome-math-and-physics/tree/main/Math/Resources/Algebra)
