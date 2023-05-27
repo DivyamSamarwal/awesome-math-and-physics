@@ -366,4 +366,39 @@ $$\Gamma(\frac{1}{2})=\sqrt{\pi}$$
 Hence proved.
 \end{proof}
 \section{Differential Equation}
+A relationship between between an independent variable $x$, a dependent variable $y$, and one or more of derivatives of $y$ $w.r.t$ $x$. \\
+A simple example of differential equation is \\
+$$\frac{dy}{dx}=x$$
+\textbf{Order and Degree of DE}\\
+\textbf{Order:} The order of highest-order derivative in a differential equation. \\
+\textbf{Degree:} The power to which the highest-order derivative is raised in a differential equation.\\
+\textbf{Solution}\\
+A solution of a differential equation is function that, when substituted for the dependent variable in equation, leads to an identity. Thus for above example $y=\frac{1}{2}x^2+c$ is a $solution.$
+\subsection{DE of first order and first degree}
+\subsubsection{Exact Equation}
+Equation of the form: $$P(\frac{dy}{dx})+	Q=0$$ are exact if left-hand side is differential coefficient of some function $f(x,y)$ $w.r.t$ $x.$. Integration gives the $solution$ $f(x,y)=C$. An $exact$ equation is one in which the total differential of function $f$ is equal to zero.
+$$\frac{\partial f}{\partial x}dx+\frac{\partial f}{\partial y}dy=0$$
+Thus an equation $Ax+by=0$ is exact if
+$$\frac{\partial A}{\partial y}=\frac{\partial B}{\partial x}$$
+\subsubsection{Variables Separable}
+In this case, the equation can be written in the form $$f(x)+g(x)\frac{dy}{dx}=0$$ Rearrangement gives $$f(x)dx=-g(y)dy$$
+Both sides then can be integrated.
+\subsubsection{Homogeneous Equations}
+These can be written in the form
+$$\frac{dy}{dx}=f(\frac{y}{x})$$
+The method of solution is to make substitution $y=vx$, which reduces the equation to one in $v$ and $x$ only. Resulting, the variables are separable.
+\subsubsection{Equations reducible to Homogeneous}
+Equation of the form  $$\frac{dy}{dx}=\frac{a_1x+b_1y+c_1}{a_2x+b_2y+c_2}$$ can be handled by making substitution $x=X+h$
+and $y=Y+k$ where $h$ and $k$ are constants.Then, $$\frac{dy}{dx}=\frac{dY}{dX}$$ $$=\frac{a_1(X+h)+b_1(Y+k)+c_1}{a_2(X+h)+b_2(Y+k)+c_2}$$
+If $h$ and $k$ are chosen to be the values of $x$ and $y$, respectively, that satisfy the simultaneous equations
+$$a_1x+b_1y+c_1=0$$
+$$a_2x+b_2y+c_2=0$$
+Then original equation becomes $$\frac{dY}{dX}=\frac{a_1X+b_1Y}{a_2X+b_2Y}$$ which is homogeneous. \\
+However if $\frac{a_1}{a_2}=\frac{b_1}{b_2} \not= \frac{c1}{c2}$ then $h$ and $k$ cannot be chosen as above.In this case, let $a_2=ma_1$ and $u=a_1x+b_1y$ The equation becomes $$\frac{du}{dx}-a_1=b_1 \frac{u+c_1}{mu+c_2}$$ and $u$ and $x$ can be separated.
+\subsubsection{Linear Equations}
+Equation of the form $$\frac{dy}{dx}+Py=Q$$ where $P$ and $Q$ are the functions of $x$, or constants, are said to be linear in $y$ and can be solved by multiplying integrating factor $$e^{\int Pdx}$$This makes left hand side of equation an exact differential:
+$$e^{\int Pdx}(\frac{dy}{dx})+e^{\int Pdx}(Py)=e^{\int Pdx}Q$$
+$$\frac{d}{dx}[e^{\int Pdx}y]=e^{\int Pdx}Q$$
+$$ye^{\int Pdx}=\int e^{\int Pdx}Qdx+c$$
+
 \end{document}
