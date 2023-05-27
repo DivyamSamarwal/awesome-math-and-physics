@@ -400,5 +400,13 @@ Equation of the form $$\frac{dy}{dx}+Py=Q$$ where $P$ and $Q$ are the functions 
 $$e^{\int Pdx}(\frac{dy}{dx})+e^{\int Pdx}(Py)=e^{\int Pdx}Q$$
 $$\frac{d}{dx}[e^{\int Pdx}y]=e^{\int Pdx}Q$$
 $$ye^{\int Pdx}=\int e^{\int Pdx}Qdx+c$$
-
+\subsection{Bernoulli's Differential Equation}
+A first order differential equation of the form 
+$$\frac{dy}{dx}+P(x)y=Q(x)y^n, n \in \mathbb{R}$$
+\subsubsection{Transformations}
+When $n=0$ the differential equation is linear and $n=1$, it is variable separable.For $n \not= 0,1$ The substitution $u=y^{1-n}$ reduces Bernoulli equation to linear differential equation.
+$$\frac{du}{dx}-(n-1)P(x)u=-(n-1)Q(x)$$ 
+For example: \\
+In case of $n=2$, making substitution $u=y^{-1}$ in the differential equation 
+$$\frac{dy}{dx}+\frac{1}{x}y=xy^2$$ produces the equation $$\frac{du}{dx}-\frac{1}{u}=-x$$ which is a linear equation.
 \end{document}
