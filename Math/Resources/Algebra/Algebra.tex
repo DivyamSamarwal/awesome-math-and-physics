@@ -1,0 +1,68 @@
+\documentclass[twocolumn, 10pt]{article}
+\usepackage{amsmath,amsthm,amssymb}
+\begin{document}
+\section{Fundamental}
+28 May 2023
+\subsection{Intervals}
+Intervals are basically subsets of $\mathbb{R}$ and are commonly used in solving inequalities or in finding domains. If there are two numbers $a, b \in \mathbb{R}$ such that $a < b$, there are four types of intervals: 
+\begin{itemize}
+\item Open interval: $(a,b)=\{x:a<x<b\}$ i.e end points are not included. Symbols: $()$ or $][$
+\item Closed interval: $[a,b]=\{x:a \le x \le b\}$ i.e end points are also included. Symbol: $[ \thinspace]$
+\item Open-Closed interval: $(a,b)=\{x:a<x \le b\}$. Symbols: $( \thinspace ]$ or $]\thinspace]$
+\item Closed-Open interval: $(a,b)=\{x:a \le x <b\}$. Symbols: $[ \thinspace )$ or $[\thinspace[$
+\end{itemize}
+\textbf{Infinite Intervals}
+\begin{itemize}
+\item $(a,\infty)= \{x:x>a\}$
+\item $[a,\infty)=\{x:x \ge a\}$
+\item $(-\infty,b)=\{x:x<b\}$
+\item $(\infty,b]=\{x:x \le b\}$
+\item $(-\infty,\infty)=\{x:x \in \mathbb{R}\}$
+\end{itemize}
+\subsection{Sets and Relations}
+\subsubsection{Set}
+ A collection of any kind of objects. The objects that make  up a set are called $elements$ or $members$. The statement '$a$ is an element of set $A$' can be written as $a \in A$ and set containing elements $a,b$ and $c$ is denoted by $\{a,b,c\}$. A $empty$  or $null$ set is denoted by  $\varnothing$, which is the set that contains no elements.\\
+\textbf{Union(join,sum):} The union of two sets $A$ and $B$, denoted by $A \cup B$, consists of those elements that belong to $A$ or to $B$: $$A \cup B = \{x:(x \in A) \lor (x \in B)\}$$ For example, if $A$ is $\{1,2,3,4\}$ and $B$ is $\{1,4,5,6\}$ then $A \cup B$  is $\{1,2,3,4,5,6\}$.\\
+\textbf{Intersection(meet,product):} The intersection of two sets $A$ and $B$, denoted by $A \cap B$, consists of those elements that belong to both $A$ and $B$: $$A \cap B=\{x:(x \in A) \land (x \in B)\}$$ For example, if $A$ is $\{1,2,3,4,5,6\}$ and $B$ is $\{1,4,5,6,7,8\}$ then $A \cap B$ is $\{1,4,5,6\}$.\\
+\textbf{Complement:} The complement of a set $A$, denoted by $A'$ or $A^{\complement}$, consists of all those elements that are not members of $A$: $$A'=\{x:x \not \in A\}$$ For example, in the domain of natural numbers, if $A$ is set of even numbers the its complement $A'$ is the set of odd numbers.\\
+\textbf{Universal Set:} Relative to a particular domain, the universal set, denoted by $\mathbf{U}$, is set of all objects of that domain:
+$$\mathbf{U}=\{x:x=x\}$$
+\subsubsection{Properties of sets}
+\textbf{Commutative law:}
+\begin{itemize}
+\item $(A \cup B)=B \cup A$
+\item $(A \cap B)= B \cap A$
+\end{itemize}
+\textbf{Associative law:}
+\begin{itemize}
+\item $(A \cup B) \cup C=A \cup (B \cup C)$
+\item $(A \cap B) \cap C=A \cap (B \cap C)$
+\end{itemize}
+\textbf{Distributive law:}
+\begin{itemize}
+\item $A \cup (B \cap C)=(A \cup B) \cap (A \cup C)$
+\item $A \cap (B \cup C)=(A \cap B) \cup (A \cap C)$
+\end{itemize}
+\textbf{De Morgan's law:}
+\begin{itemize}
+\item $(A \cup B)' = A' \cap B'$
+\item $(A \cap B)' = A' \cup B'$
+\end{itemize}
+\textbf{Identity law:}
+\begin{itemize}
+\item $A \cup \mathbf{U}=A$
+\item $A \cup \varnothing=A$
+\end{itemize}
+\textbf{Complement law:}
+\begin{itemize}
+\item $A \cup A' = \mathbf{U}$
+\item $A \cap A'= \varnothing$
+\item $(A')'=A$
+\end{itemize}
+\textbf{Idempotent law:}
+\begin{itemize}
+\item $A \cap A=A$
+\item $A \cup A=A$
+\end{itemize}
+\subsubsection{Results on number of elements in sets}
+\end{document}
