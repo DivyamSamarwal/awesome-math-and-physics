@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  27 MAY 2023 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  28 MAY 2023 11:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -178,43 +178,43 @@ Underfull \hbox (badness 5105) in paragraph at lines 195--202
 \OT1/cmr/bx/n/10 Length of tangent,normal,sub-tangent,sub-
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 278--290
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 285--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--290
+Underfull \hbox (badness 10000) in paragraph at lines 285--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--290
+Underfull \hbox (badness 10000) in paragraph at lines 285--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--290
+Underfull \hbox (badness 10000) in paragraph at lines 285--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--290
+Underfull \hbox (badness 10000) in paragraph at lines 285--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--290
+Underfull \hbox (badness 10000) in paragraph at lines 285--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--290
+Underfull \hbox (badness 10000) in paragraph at lines 285--299
 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 307--311
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--320
 []$[][] \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\
 OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = [][](\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\O
 ML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OMS/cms
@@ -223,12 +223,12 @@ n/10 =$
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 361--363
+Underfull \hbox (badness 1910) in paragraph at lines 370--372
 \OT1/cmr/m/n/10 Using prop-erty $[[][] \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/
 cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = 2 [][] \OML
 /cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it
@@ -236,17 +236,17 @@ cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = 2 [][] \OML
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--363
+Underfull \hbox (badness 10000) in paragraph at lines 370--372
 
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 369--371
+Underfull \hbox (badness 1320) in paragraph at lines 378--380
 \OT1/cmr/m/n/10 A re-la-tion-ship be-tween be-tween an in-de-pen-dent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--371
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
 
  []
 
@@ -256,7 +256,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 369--371
 Here is how much of TeX's memory you used:
  1792 strings out of 476411
  26453 string characters out of 5789134
- 1882845 words of memory out of 5000000
+ 1880845 words of memory out of 5000000
  22187 multiletter control sequences out of 15000+600000
  516185 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -280,7 +280,7 @@ Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/DIVYA/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/DIV
 YA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 >
-Output written on Calculus.pdf (9 pages, 232717 bytes).
+Output written on Calculus.pdf (9 pages, 234470 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

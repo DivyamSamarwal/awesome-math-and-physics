@@ -275,6 +275,15 @@ Then:
 \item $\int \sqrt{x^2-a^2}dx=\frac{x}{2}\sqrt{x^2-a^2}-\frac{a^2}{2}ln(\frac{x+\sqrt{x^2-a^2}}{a})+c$
 \end{itemize}
 \subsection{Integration of types}
+\textbf{By Partial Fraction} \\
+A method of integrating rational functions that are fractions in which the denominator has a higher degree than the numerator. For example
+the integral $$\int \frac{x+3}{x^2+3x+2}dx$$
+can be put in the form $$\frac{A}{x+2} +\frac{B}{x+1}$$
+$A$ and $B$ can be found by putting this expression in the form $$\frac{A(x+1)+B(x+2)}{x^2+3x+2}$$ Then $$x+3=(A+B)x+(A+2B)$$ Coefficient of like power are equated to give $A+B=1$ and $A+2B=3$ i.e $A=-1$ and $B=2$. Thus the partial fractions becomes $$\int \frac{2}{x+1}dx - \int \frac{1}{x+2}dx$$
+\textbf{By Parts} \\
+A method of integration using the formula $$\int u \frac{dv}{dx}dx=uv-\int v \frac{du}{dx}dx$$ For example, it is possible to integrate $xcosx$ using $x=u$ and $cosx = \frac{dv}{dx}$ so that $\frac{du}{dx}=1$
+and $v=sinx.$ Then the formula gives $$\int xcosxdx==xsinx- \int sinxdx$$ $$=xsinx+cosx$$
+\textbf{Other types}\\
 1. $\int \frac{dx}{ax^2+bx+c},\int \frac{dx}{\sqrt{ax^2+bx+c}},\int \sqrt{ax^2+bx+c} \medspace dx$\\ $\implies$ Put $x+\frac{b}{2a}=t$\\ \\
 2. $\int \frac{px+q}{ax^2+bx+c}dx,\int \frac{px+q}{\sqrt{ax^2+bx+c}}dx$,\\$\int(px+q)\sqrt{ax^2+bx+c} \medspace dx \implies$ \\
 Put $x+\frac{b}{2a}=t$ then split the integral. \\ \\
