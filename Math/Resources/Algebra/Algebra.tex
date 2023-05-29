@@ -71,4 +71,29 @@ If $A,B,C$ are finite sets and $\mathbf{U}$ be Universal finite set then:
 \item $n(A-B)=n(A)-n(A \cap B)$
 \item $n(A \cup B \cup C)=n(A)+n(B)+n(C)-n(A \cap B)-n(B \cap C)-n(C \cap A)+n(A \cap B \cap C)$
 \end{itemize}
+\subsubsection{Relations}
+An association between, or property of, two or more objects. Thus ($x=y$) and ($a$ lies between $b$ and $c$) are relations, but ($N$ is a prime) is not.
+\subsubsection{Types of Relations}
+\textbf{Void Relation:} Let $A$ be a set. Then $\phi \subseteq A \times A$ and so it is a relation on $A$. This relation is also called empty relation on $A$.\\
+\textbf{Universal Relation:}Let $A$ be a set. Then $A\times A \subseteq A \times A$ and so it is a relation on A. This relation is called the universal relation on $A$.\\
+\textbf{Identity relation:} Let $A$ be a set. Then the relation $I_A =\{(a,a):a \in A\}$is called the identity relation on $A$. In other words, a relation $I_A$ on $A$ is called the identity relation if every element of $A$ is related to itself only.\\
+\textbf{Reflexive Relation:} A relation $R$ on a set $A$ is said to be reflexive if every element of $A$ is related to itself. Thus $R$ on set $A$ is not reflexive if there exits an element $a \in A$ such that $(a,a) \notin R$.\\
+\textbf{Symmetric Relation:} A Relation $R$ on set $A$ is said to be symmetric if $$(a,b) \in R \implies (b,a) \in R \medspace \forall \medspace a,b \in A$$ i.e $$a \medspace R \medspace b \implies b \medspace R \medspace a \medspace \forall \medspace a,b \in A$$\\
+\textbf{Transitive Relation:} A Relation $R$ on set $A$ is said to be transitive  if $(a,b) \in R$ and $(b,c) \in R$ $\implies (a,c) \in R \medspace \forall \medspace a,b,c \in A$.\\
+\textbf{Equivalence Relation:} A Relation is said to be equivalence if it satisfies $reflexive,symmetric$ and $transitive$ relations.\\
+\textbf{Equivalence Class:} If $R$ is an equivalence relation defined on set $A$ then the equivalence class of any element $x \in A$, denoted by $[x]$, is the set of elements to which $x$ is related by equivalence relation $R$: $$[x]=\{y:x \medspace \mathbf{R} \medspace y\}$$ For example, if $R$ is the equivalence relation (the same height as), then the equivalence class of the element $x \in A$ consists of all elements of $A$ with same height as $x$.
+\section{Quadratic Equations}
+29 May 2023
+\subsection{Equation and Basic Results}
+An equation of the form $$ax^2+bx+c=0$$ where $a \not= 0$ and $a,b,c \in \mathbb{R}$ is called a quadratic equation. The roots of quadratic equation are given by $$x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}$$ The quantity D ($D=b^2-4ac$) is known as discriminant of equation.
+\subsubsection{Results}
+1. Let $\alpha$ and $\beta$ be two roots of given quadratic equation. Then
+
+\begin{itemize}
+\item $\alpha + \beta = -\frac{b}{a}$
+\item $\alpha \beta=\frac{c}{a}$
+\end{itemize}
+2. A quadratic equation, whose roots are $\alpha$ and $\beta$ can be written as $$(x-\alpha)(x-\beta)=0$$ i.e $$ax^2+bx+c \equiv a(x-\alpha)(x-\beta)$$
+3. If the quadratic equation is satisfied by more than two distinct numbers (real or complex), then it becomes an identity, i.e $$a=b=c=0$$
+4. The quadratic equation has real and equal roots if and only if $D=0$ i.e $b^2-4ac=0$
 \end{document}
