@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  30 MAY 2023 19:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  30 MAY 2023 20:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -157,33 +157,54 @@ mr/m/n/10 and $\OML/cmm/m/it/10 B$ \OT1/cmr/m/n/10 is
 [1
 
 {C:/Users/DIVYA/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-[3] (Algebra.aux) ) 
+Overfull \hbox (44.36763pt too wide) detected at line 115
+\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = [] \OM
+L/cmm/m/it/10 > \OT1/cmr/m/n/10 0(\OML/cmm/m/it/10 < \OT1/cmr/m/n/10 0\OML/cmm/
+m/it/10 ; \OMS/cmsy/m/n/10 ^^T \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; or \OMS/cmsy
+/m/n/10 ^^U \OT1/cmr/m/n/10 0)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+[]$\OML/cmm/m/it/10 Zeros[]$\OT1/cmr/m/n/10 :The point for which $\OML/cmm/m/it
+/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ van-
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 129--130
+\OT1/cmr/m/n/10 ishes(becomes zero) is called the $\OML/cmm/m/it/10 zeros$ \OT1
+/cmr/m/n/10 of
+ []
+
+[3] [4
+
+] (Algebra.aux) ) 
 Here is how much of TeX's memory you used:
  1794 strings out of 476411
  26453 string characters out of 5789134
- 1866845 words of memory out of 5000000
+ 1867845 words of memory out of 5000000
  22188 multiletter control sequences out of 15000+600000
  516458 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,8n,62p,499b,177s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\DIVYA\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
-en/ec/dpi600\tcrm1000.pk><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DIVYA/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DIVYA/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/DIVYA/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/D
-IVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.
-pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmr7.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmsy7.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/symbols/msam7.pfb><C:/Users/DIVYA/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Algebra.pdf (3 pages, 156133 bytes).
+ 56i,8n,62p,499b,179s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\DIVYA\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\tcrm1000.pk><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DIVYA/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DIVYA/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/DIVYA/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/DIV
+YA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
+sers/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pf
+b><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr7.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmsy7.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/symbols/msam7.pfb><C:/Users/DIVYA/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Algebra.pdf (4 pages, 161710 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
