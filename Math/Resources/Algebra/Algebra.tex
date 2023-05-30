@@ -95,5 +95,22 @@ An equation of the form $$ax^2+bx+c=0$$ where $a \not= 0$ and $a,b,c \in \mathbb
 \end{itemize}
 2. A quadratic equation, whose roots are $\alpha$ and $\beta$ can be written as $$(x-\alpha)(x-\beta)=0$$ i.e $$ax^2+bx+c \equiv a(x-\alpha)(x-\beta)$$
 3. If the quadratic equation is satisfied by more than two distinct numbers (real or complex), then it becomes an identity, i.e $$a=b=c=0$$
-4. The quadratic equation has real and equal roots if and only if $D=0$ i.e $b^2-4ac=0$
+4. The quadratic equation has real and equal roots if and only if $D=0$ i.e $b^2-4ac=0$. \\
+5. The quadratic equation has real and distinct roots if and only if $D>0$ i.e $b^2-4ac>0$. \\
+6. The quadratic equation has complex roots with non-zero imaginary parts if and only if $D<0$ i.e $b^2-4ac<0$.\\
+7. If $p+iq$ ($p,q \in \mathbb{R}$) is root of quadratic equation where $i=\sqrt{-1}$, the $p-iq$ is also root of quadratic equation. Provided $a,b,c \in \mathbb{R}$. \\
+8. If $p+\sqrt{q}$ is an irrational root of quadratic equation, then $p-\sqrt{q}$ is also a root of equation provided that all coefficients are rational.
+\subsection{Conditions for Common Root(s)}
+Let $ax^2+bx+c=0$ and $dx^2+ex+f=0$ have a common root $\alpha$. Then 
+$a\alpha ^{2}+b\alpha+c=0$ and $d\alpha ^{2}+e\alpha+f=0$.\\
+Solving for $ \alpha^2$ and $ \alpha$ :
+$$\frac{\alpha^2}{bf-ce}=\frac{\alpha}{dc-af}=\frac{1}{ae-bd} \implies$$ $$\alpha^2=\frac{bf-ce}{ae-bd}$$ and $$\alpha=\frac{dc-af}{ae-bd} \implies$$ $$(dc-af)^2=(bf-ce)(ae-bd)$$
+which is a required condition for the two equation to have a common root.
+
+\begin{itemize}
+\item Condition for both the roots to be common is $\frac{a}{d}=\frac{b}{e}=\frac{c}{f}$
+\end{itemize}
+\subsection{Wavy Curve Method}
+The Method of intervals is used for solving inequalities of the form 
+$$f(x)= \frac{(x-a_1)^{n_1}(x-a_2)^{n_2}...(x-a_k)^{n_k}}{(x-b_1)^{m_1}(x-b_2)^{m_2}...(x-b_p)^{n_p}}$$
 \end{document}
