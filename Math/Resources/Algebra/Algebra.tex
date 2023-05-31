@@ -1,5 +1,5 @@
 \documentclass[twocolumn, 10pt]{article}
-\usepackage{amsmath,amsthm,amssymb}
+\usepackage{amsmath,amsthm,amssymb,wrapfig,graphicx}
 \begin{document}
 \section{Fundamental}
 28 May 2023
@@ -131,4 +131,13 @@ $a_i \not= b_i$ where $i=1,2,3,...k$ and $j=1,2,3,...p$.\\
 \item $Single \medspace point^3$:If the exponents of factor is $odd$ then the point is called $single \medspace point$.
 \item $Double \medspace point^4$: If the exponent of factor is $even$ then the point is called $double \medspace point$.
 \end{itemize}
+\subsection{Quadratic Expression}
+Let $f(x)=ax^2+bx+c$ where $a,b,c \in \mathbb{R}$ $a \not= 0$
+It can be rewritten as $$f(x)=a\{(x+ \frac{b}{2a})^2 + \frac{D}{4a^2}\}$$ where $D=b^2-4ac$. Then $y-f(x)$ represents a parabola whose axis is parallel to the y axis, with vertex at $A(-\frac{b}{2a},\frac{-D}{4a})$. Now depending upon the values of $a$ and $D$ the parabola will have different shapes:
+
+\begin{wrapfigure}{R}{0.3\textwidth}
+\centering
+\includegraphics[width=0.25\textwidth]{images/parabola.png}
+\caption{\label{fig:check} $y=4ax^2$ Trial figure}
+\end{wrapfigure}
 \end{document}

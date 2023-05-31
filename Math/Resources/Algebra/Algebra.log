@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  30 MAY 2023 20:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  31 MAY 2023 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -113,12 +113,44 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen150
+\WF@size=\dimen151
+\c@WF@wrappedlines=\count271
+\WF@box=\box53
+\WF@everypar=\toks27
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks28
+)
+(C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+)
 (C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count271
-\l__pdf_internal_box=\box53
+\l__color_backend_stack_int=\count272
+\l__pdf_internal_box=\box54
 ) (Algebra.aux)
 \openout1 = `Algebra.aux'.
 
@@ -136,9 +168,34 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
 
-(C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count273
+\scratchdimen=\dimen154
+\scratchbox=\box55
+\nofMPsegments=\count274
+\nofMParguments=\count275
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count276
+\MPscratchDim=\dimen155
+\MPnumerator=\count277
+\makeMPintoPDFobject=\count278
+\everyMPtoPDFconversion=\toks30
+)
+(C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+ (C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
@@ -176,35 +233,41 @@ Underfull \hbox (badness 2452) in paragraph at lines 129--130
 /cmr/m/n/10 of
  []
 
-[3] [4
+[3]
+<images/parabola.png, id=24, 578.16pt x 430.60875pt>
+File: images/parabola.png Graphic file (type png)
+<use images/parabola.png>
+Package pdftex.def Info: images/parabola.png  used on input line 140.
+(pdftex.def)             Requested size: 117.25pt x 87.32263pt.
+ [4
 
-] (Algebra.aux) ) 
+ <./images/parabola.png>] (Algebra.aux) ) 
 Here is how much of TeX's memory you used:
- 1794 strings out of 476411
- 26453 string characters out of 5789134
- 1867845 words of memory out of 5000000
- 22188 multiletter control sequences out of 15000+600000
+ 2740 strings out of 476411
+ 41608 string characters out of 5789134
+ 1868845 words of memory out of 5000000
+ 23093 multiletter control sequences out of 15000+600000
  516458 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,8n,62p,499b,179s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\DIVYA\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
-/ec/dpi600\tcrm1000.pk><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DIVYA/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DIVYA/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/DIVYA/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/DIV
-YA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
-sers/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pf
-b><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr7.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy7.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/symbols/msam7.pfb><C:/Users/DIVYA/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Algebra.pdf (4 pages, 161710 bytes).
+ 57i,8n,62p,499b,179s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\DIVYA\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/DIVYA/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DIVYA/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DIVY
+A/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/U
+sers/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.p
+fb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmmi7.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr5.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DIVYA/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/DIVYA/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Users/DIVYA/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Algebra.pdf (4 pages, 168088 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
