@@ -134,20 +134,16 @@ $a_i \not= b_i$ where $i=1,2,3,...k$ and $j=1,2,3,...p$.\\
 \subsection{Quadratic Expression}
 Let $f(x)=ax^2+bx+c$ where $a,b,c \in \mathbb{R}$ $a \not= 0$
 It can be rewritten as $$f(x)=a\{(x+ \frac{b}{2a})^2 + \frac{D}{4a^2}\}$$ where $D=b^2-4ac$. Then $y-f(x)$ represents a parabola whose axis is parallel to the y axis, with vertex at $A(-\frac{b}{2a},\frac{-D}{4a})$. Now depending upon the values of $a$ and $D$ the parabola will have different shapes:
-
-\begin{wrapfigure}{R}{0.3\textwidth}
-\centering
-\includegraphics[width=0.25\textwidth]{images/figure1.png}
-\caption{\label{fig:check} $a>0,D<0$ \\ $f(x) \ge -\frac{D}{4a}$ $\forall x \in \mathbb{R}$ }
-\end{wrapfigure}
-\begin{wrapfigure}{R}{0.3\textwidth}
-\centering
-\includegraphics[width=0.25\textwidth]{images/figure2.png}
-\caption{\label{fig:check} $a>0,D=0$ \\ $f(x) \ge 0$ $\forall x \in \mathbb{R}$ }
-\end{wrapfigure}
-\begin{wrapfigure}{R}{0.3\textwidth}
-\centering
-\includegraphics[width=0.25\textwidth]{images/figure3.png}
-\caption{\label{fig:check} $a>0,D>0$ \\  $ -\frac{D}{4a} \le f(x)<0$ $\forall x \in (\alpha,\beta)$ }
-\end{wrapfigure}
+will add images  later...
+\subsection{Interval in which the roots lie}
+Let $f(x)=ax^2+bx+c$ where $a,b,c \in \mathbb{R}$ and $a \not= 0$. Suppose $\lambda,\lambda _1, \lambda _2 \in \mathbb{R}$ and $\lambda_1 < \lambda_2$ Then the following results hold true:
+\begin{itemize}
+\item Both roots of $f(x)=0$ will be greater than $\lambda$, if $D \ge 0$, $af(\lambda)>0$ and $\lambda<-\frac{b}{2a}$.
+\item Both roots of $f(x)=0$ will be less than $\lambda$, if $D \ge 0$, $af(\lambda)>0$ and $\lambda>-\frac{b}{2a}$.
+\item If $\lambda$ lies between the roots of $f(x)=0$ then $af(\lambda)<0$.
+\item Both roots of $f(x)=0$ will belong to interval $(\lambda_1,\lambda_2)$, if $D \ge 0$, $af(\lambda_1)>0$,$af(\lambda_2)>0$ and $\lambda_1<-\frac{b}{2a}<\lambda_2$.
+\item Exactly one root of $f(x)=0$ will lie in $(\lambda_1,\lambda_2)$ if $f(\lambda_1). f(\lambda_2)<0$.
+\item Interval $(\lambda_1,\lambda_2)$ will be contained between the roots of $f(x)=0$ if $af(\lambda_1)<0,af(\lambda_2)<0$.
+\item $\lambda$ will be the required root of $f(x)=0$ if $f(\lambda)=0$ and $f'(\lambda)=0$.
+\end{itemize}
 \end{document}
