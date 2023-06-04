@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  4 JUN 2023 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  4 JUN 2023 17:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -233,33 +233,36 @@ Underfull \hbox (badness 2452) in paragraph at lines 129--130
 /cmr/m/n/10 of
  []
 
-[3] [4] (Algebra.aux) ) 
+[3] [4] [5
+
+] (Algebra.aux) ) 
 Here is how much of TeX's memory you used:
  2729 strings out of 476411
  41397 string characters out of 5789134
- 1868845 words of memory out of 5000000
+ 1869845 words of memory out of 5000000
  23085 multiletter control sequences out of 15000+600000
  516458 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,62p,499b,179s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\DIVYA\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
-nappen/ec/dpi600\tcrm1000.pk><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DIVYA/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DIVYA/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DIVYA/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/DIVYA
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Use
-rs/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mr5.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmr7.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/symbols/msam7.pfb><C:/Users/DIVYA/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Algebra.pdf (4 pages, 169536 bytes).
+ <C:\Users\DIVYA\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\tcrm1000.pk><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DIVYA/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DIVYA/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DIVYA/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/DI
+VYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/
+Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr5.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr7.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Users/DIVYA/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Algebra.pdf (5 pages, 180563 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
