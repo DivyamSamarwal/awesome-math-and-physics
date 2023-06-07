@@ -91,11 +91,11 @@ possibly c itself, $\lim_{x \to c} g(x)=L$. This is know as $Squeeze \thickspace
 where $F(x)=2H(x-1)-1$ and $H(x)$ is Oliver Heaviside step function.
 \subsection{Trigonometric Functions}
 \begin{itemize}
-\item $\lim_{x \to 0} \frac{sinax}{ax}=1 $ for $a \not= 0$
-\item $\lim_{x \to 0} \frac{sinax}{bx}=\frac{a}{b} $ for $b \not= 0$
-\item $\lim_{x \to \infty} xsin( \frac{1}{x})=1$
-\item $\lim_{x \to 0} \frac{tanax}{ax}=1 $ for $a \not= 0$ 
-\item $\lim_{x \to 0} \frac{tanax}{bx}=\frac{a}{b} $ for $b \not= 0$
+\item $\lim_{x \to 0} \frac{ \sin ax}{ax}=1 $ for $a \not= 0$
+\item $\lim_{x \to 0} \frac{\sin ax}{bx}=\frac{a}{b} $ for $b \not= 0$
+\item $\lim_{x \to \infty} x \sin( \frac{1}{x})=1$
+\item $\lim_{x \to 0} \frac{\tan ax}{ax}=1 $ for $a \not= 0$ 
+\item $\lim_{x \to 0} \frac{\tan ax}{bx}=\frac{a}{b} $ for $b \not= 0$
 \end{itemize}
 \subsection{Sums}
 \begin{itemize}
@@ -114,13 +114,13 @@ $$e^x = 1 + \frac{x}{1!}+ \frac{x^{2}}{2!}+ \frac{x^{3}}{3!}+...+ \infty$$
 $$ln(1+x) = x - \frac{x^{2}}{2}+ \frac{x^{3}}{3}- \frac{x^{4}}{4}+...+ \infty$$
 $$ln(1-x) = -(x + \frac{x^{2}}{2}+ \frac{x^{3}}{3}+ \frac{x^{4}}{4}+...+ \infty)$$
 $$ln(\frac{1+x}{1-x}) = 2(x+ \frac{x^{3}}{3}+ \frac{x^{5}}{5}+ \frac{x^{7}}{7}+...)$$
-$$sinx = x - \frac{x^{3}}{3!}+ \frac{x^{5}}{5!}- \frac{x^{7}}{7!}+...+ \infty$$
-$$cosx = 1 - \frac{x^{2}}{2!}+ \frac{x^{4}}{4!}- \frac{x^{6}}{6!}+...+ \infty$$
-$$tanx = x + \frac{x^{3}}{3}+ \frac{2x^{5}}{15}+...+ \infty$$
-$$secx = x + \frac{x^{2}}{2}+ \frac{5x^{4}}{24}+...+ \infty$$
-$$arcsinx/sin^{-1}x = x + \frac{x^{3}}{6}+ \frac{3x^{5}}{40}+...+ \infty$$
-$$arccosx/cos^{-1}x = \frac{\pi}{2}- (x + \frac{x^{3}}{6}+ \frac{3x^{5}}{40}+...)$$
-$$arctanx/tan^{-1}x = x - \frac{x^{3}}{3}+ \frac{x^{5}}{5}+...+ \infty$$
+$$\sin x = x - \frac{x^{3}}{3!}+ \frac{x^{5}}{5!}- \frac{x^{7}}{7!}+...+ \infty$$
+$$\cos x = 1 - \frac{x^{2}}{2!}+ \frac{x^{4}}{4!}- \frac{x^{6}}{6!}+...+ \infty$$
+$$\tan x = x + \frac{x^{3}}{3}+ \frac{2x^{5}}{15}+...+ \infty$$
+$$\sec x = x + \frac{x^{2}}{2}+ \frac{5x^{4}}{24}+...+ \infty$$
+$$arc \sin x/ \sin^{-1}x = x + \frac{x^{3}}{6}+ \frac{3x^{5}}{40}+...+ \infty$$
+$$arc \cos x/ \cos^{-1}x = \frac{\pi}{2}- (x + \frac{x^{3}}{6}+ \frac{3x^{5}}{40}+...)$$
+$$arc \tan x/\tan^{-1}x = x - \frac{x^{3}}{3}+ \frac{x^{5}}{5}+...+ \infty$$
 \section{Differentiation}
 26 May 2023
 \subsection{Elementary functions}
@@ -128,13 +128,13 @@ $$arctanx/tan^{-1}x = x - \frac{x^{3}}{3}+ \frac{x^{5}}{5}+...+ \infty$$
 \item $\frac{d}{dx} (x^n)=nx^{n-1}$
 \item $\frac{d}{dx} (a^x)=a^x lna$
 \item $\frac{d}{dx} (lnx)=\frac{1}{x}$
-\item $\frac{d}{dx} (log_a x)=\frac{1}{xlna}$
-\item $\frac{d}{dx} (sinx)=cosx$
-\item $\frac{d}{dx} (cosx)=-sinx$
-\item $\frac{d}{dx} (secx)=secxtanx$
-\item $\frac{d}{dx} (cosecx)=-cosecxcotx$
-\item $\frac{d}{dx} (tanx)=sec^2x$
-\item $\frac{d}{dx} (cotx)=-cosec^2x$
+\item $\frac{d}{dx} (\log_a x)=\frac{1}{xlna}$
+\item $\frac{d}{dx} (\sin x)=\cos x$
+\item $\frac{d}{dx} (\cos x)=-\sin x$
+\item $\frac{d}{dx} (\sec x)=\sec x \tan x$
+\item $\frac{d}{dx} (\csc x)=-\csc x \cot x$
+\item $\frac{d}{dx} (\tan x)=\sec^2x$
+\item $\frac{d}{dx} (\cot x)=-\csc^2x$
 \end{itemize}
 \subsection{Basic Theorems}
 \begin{itemize}
@@ -146,12 +146,12 @@ $$arctanx/tan^{-1}x = x - \frac{x^{3}}{3}+ \frac{x^{5}}{5}+...+ \infty$$
 \end{itemize}
 \subsection{Inverse Trigonometric Functions}
 \begin{itemize}
-\item $\frac{d}{dx} (sin^{-1}x)=\frac{1}{\sqrt{1-x^2}}$
-\item $\frac{d}{dx} (cos^{-1}x)=\frac{-1}{\sqrt{1-x^2}}$
-\item $\frac{d}{dx} (tan^{-1}x)=\frac{1}{1+x^2}$
-\item $\frac{d}{dx} (cot^{-1}x)=\frac{-1}{1+x^2}$
-\item $\frac{d}{dx} (sec^{-1}x)=\frac{1}{|x| \sqrt{x^2-1}}$
-\item $\frac{d}{dx} (cosec^{-1}x)=\frac{-1}{|x| \sqrt{x^2-1}}$
+\item $\frac{d}{dx} (\sin^{-1}x)=\frac{1}{\sqrt{1-x^2}}$
+\item $\frac{d}{dx} (\cos^{-1}x)=\frac{-1}{\sqrt{1-x^2}}$
+\item $\frac{d}{dx} (\tan^{-1}x)=\frac{1}{1+x^2}$
+\item $\frac{d}{dx} (\cot^{-1}x)=\frac{-1}{1+x^2}$
+\item $\frac{d}{dx} (\sec^{-1}x)=\frac{1}{|x| \sqrt{x^2-1}}$
+\item $\frac{d}{dx} (\csc^{-1}x)=\frac{-1}{|x| \sqrt{x^2-1}}$
 \end{itemize}
 \subsection{Using Substitution}
 \begin{itemize}
@@ -201,7 +201,7 @@ Length of Normal  $=|k|\sqrt{1+ m^2}$ \\
 Length of Sub-Tangent $=|\frac{k}{m}|$ \\
 Length of Sub-Normal $=|km|$ \\
 \textbf{Angle between the curves}
-$$tan\theta=|\frac{m_1-m_2}{1+m_1m_2}|$$
+$$\tan \theta=|\frac{m_1-m_2}{1+m_1m_2}|$$
 \subsection{Theorems}
 \textbf{Rolle's Theorem}\\
 If a function $f$ defined on $[a,b]$ and
@@ -258,17 +258,17 @@ Then:
 \item $\int \frac{dx}{ax+b}=\frac{1}{a} ln(ax+b)  +c$
 \item $\int e^{ax+b}dx= \frac{1}{a} e^{ax+b}+c$
 \item $\int a^{px+q}dx=\frac{1}{p}\frac{a^{px+q}}{lna} +c$
-\item $\int sin(ax+b)dx=\frac{-1}{a}cos(ax+b)+c$
-\item $\int cos(ax+b)dx=\frac{1}{a}sin(ax+b)+c$
-\item $\int tan(ax+b)dx=\frac{1}{a}lnsec(ax+b)+c$
-\item $\int cot(ax+b)dx=\frac{1}{a}lnsin(ax+b)+c$
-\item $\int sec^2(ax+b)dx=\frac{1}{a}tan(ax+b)+c$
-\item $\int cosec^2(ax+b)dx=\frac{-1}{a}cot(ax+b)+c$
-\item $\int secxdx=ln(secx+tanx)+c$
-\item $\int cosexdx=ln(cosecx-cotx)+c$
-\item $\int \frac{dx}{\sqrt{a^2-x^2}}=sin^{-1}(\frac{x}{a})+c$
-\item $\int \frac{dx}{a^2+x^2}=\frac{1}{a}tan^{-1}(\frac{x}{a})+c$
-\item $\int \frac{dx}{|x|\sqrt{x^2-a^2}}=\frac{1}{a}sec^{-1}(\frac{x}{a})+c$
+\item $\int \sin(ax+b)dx=\frac{-1}{a}\cos(ax+b)+c$
+\item $\int \cos(ax+b)dx=\frac{1}{a}\sin(ax+b)+c$
+\item $\int \tan(ax+b)dx=\frac{1}{a}ln \sec(ax+b)+c$
+\item $\int \cot(ax+b)dx=\frac{1}{a}ln \sin(ax+b)+c$
+\item $\int \sec^2(ax+b)dx=\frac{1}{a}\tan(ax+b)+c$
+\item $\int \csc^2(ax+b)dx=\frac{-1}{a} \cot(ax+b)+c$
+\item $\int \sec xdx=ln(\sec x+\tan x)+c$
+\item $\int \csc xdx=ln(\csc x-\cot x)+c$
+\item $\int \frac{dx}{\sqrt{a^2-x^2}}=\sin^{-1}(\frac{x}{a})+c$
+\item $\int \frac{dx}{a^2+x^2}=\frac{1}{a}\tan^{-1}(\frac{x}{a})+c$
+\item $\int \frac{dx}{|x|\sqrt{x^2-a^2}}=\frac{1}{a}\sec^{-1}(\frac{x}{a})+c$
 \item $\int \frac{dx}{\sqrt{x^2+a^2}}=ln[{x+\sqrt{x^2+a^2}}]+c$
 \item $\int \frac{dx}{a^2-x^2}=\frac{1}{2a}ln|\frac{a+x}{a-x}|+c$
 \item $\int \frac{dx}{x^2-a^2}=\frac{1}{2a}ln|\frac{x-a}{x+a}|+c$
@@ -284,15 +284,15 @@ can be put in the form $$\frac{A}{x+2} +\frac{B}{x+1}$$
 $A$ and $B$ can be found by putting this expression in the form $$\frac{A(x+1)+B(x+2)}{x^2+3x+2}$$ Then $$x+3=(A+B)x+(A+2B)$$ Coefficient of like power are equated to give $A+B=1$ and $A+2B=3$ i.e $A=-1$ and $B=2$. Thus the partial fractions becomes $$\int \frac{2}{x+1}dx - \int \frac{1}{x+2}dx$$
 \textbf{By Parts} \\
 A method of integration using the formula $$\int u \frac{dv}{dx}dx=uv-\int v \frac{du}{dx}dx$$ For example, it is possible to integrate $xcosx$ using $x=u$ and $cosx = \frac{dv}{dx}$ so that $\frac{du}{dx}=1$
-and $v=sinx.$ Then the formula gives $$\int xcosxdx==xsinx- \int sinxdx$$ $$=xsinx+cosx$$
+and $v=sinx.$ Then the formula gives $$\int x\cos xdx=x\sin x- \int \sin xdx$$ $$=x\sin x+\cos x$$
 \textbf{Other types}\\
 1. $\int \frac{dx}{ax^2+bx+c},\int \frac{dx}{\sqrt{ax^2+bx+c}},\int \sqrt{ax^2+bx+c} \medspace dx$\\ $\implies$ Put $x+\frac{b}{2a}=t$\\ \\
 2. $\int \frac{px+q}{ax^2+bx+c}dx,\int \frac{px+q}{\sqrt{ax^2+bx+c}}dx$,\\$\int(px+q)\sqrt{ax^2+bx+c} \medspace dx \implies$ \\
 Put $x+\frac{b}{2a}=t$ then split the integral. \\ \\
-3. $\int \frac{dx}{a+bsin^2x}, \int \frac{dx}{a+bcos^2x},\int \frac{dx}{asin^2x+bsinxcosx+ccos^2x}$ \\
-$\implies$ Put $tanx=t$ \\ \\
-4. $\int \frac{dx}{a+bsinx}, \int \frac{dx}{a+bcosx},\int \frac{dx}{a+bsinx+ccosx}$ \\
-$\implies$ Put $tan(\frac{x}{2})=t$ \\ \\
+3. $\int \frac{dx}{a+b\sin^2x}, \int \frac{dx}{a+b\cos^2x},\int \frac{dx}{a\sin^2x+b\sin x \cos x+c\cos^2x}$ \\
+$\implies$ Put $\tan x=t$ \\ \\
+4. $\int \frac{dx}{a+b \sin x}, \int \frac{dx}{a+b \cos x},\int \frac{dx}{a+b \sin x+c\cos x}$ \\
+$\implies$ Put $\tan(\frac{x}{2})=t$ \\ \\
 5. $\int \frac{dx}{(ax+b)\sqrt{px+q}},\int \frac{dx}{(ax^2+bx+c)\sqrt{px+q}} \implies$ \\
 Put $px+q=t^2$ \\\\
 6. $\int \frac{dx}{(ax+b)\sqrt{px^2+qx+r}} \implies$ Put $ax+b=\frac{1}{t}$ \\\\
@@ -300,14 +300,14 @@ Put $px+q=t^2$ \\\\
 8. $\int \frac{x^2+1dx}{x^4+\lambda x^2+1}$ where $\lambda$ is any constant $\implies$ Divide numerator and denominator by $x^2$ and Put $x \mp \frac{1}{x}=t$
 \subsection{Reduction Forms}
 \begin{itemize}
-\item $\int sin^{n}xdx= \frac{-sin^{n-1}xcosx}{n}+ \frac{n-1}{n} \int sin^{n-2}xdx$ 
-\item $\int cos^{n}xdx= \frac{cos^{n-1}xsinx}{n}+ \frac{n-1}{n} \int cos^{n-2}xdx$
-\item $\int e^{ax}sinbxdx = \frac{e^{ax}}{a^2+b^2}(asinbx-bcosbx)$
-\item $\int e^{ax}cosbxdx = \frac{e^{ax}}{a^2+b^2}(acosbx+bsinbx)$
+\item $\int \sin^{n}xdx= \frac{-\sin^{n-1}x\cos x}{n}+ \frac{n-1}{n} \int \sin^{n-2}xdx$ 
+\item $\int \cos^{n}xdx= \frac{\cos^{n-1}x \sin x}{n}+ \frac{n-1}{n} \int \cos^{n-2}xdx$
+\item $\int e^{ax}\sin bxdx = \frac{e^{ax}}{a^2+b^2}(a\sin bx-b\cos bx)$
+\item $\int e^{ax}\cos bxdx = \frac{e^{ax}}{a^2+b^2}(a\cos bx+b \sin bx)$
 \item $\int (lnx)^{n}dx = x(lnx)^{n} -n \int (lnx)^{n-1}dx$
 \item \textbf{For n$>$1} 
-\item $\int tan^{n}xdx= \frac{tan^{n-1}x}{n-1}- \int tan^{n-2}xdx$ 
-\item $\int sec^{n}xdx= \frac{sec^{n-1}xsinx}{n-1}+ \frac{n-2}{n-1} \int sec^{n-2}xdx$ 
+\item $\int \tan^{n}xdx= \frac{\tan^{n-1}x}{n-1}- \int \tan^{n-2}xdx$ 
+\item $\int \sec^{n}xdx= \frac{\sec^{n-1}x\sin x}{n-1}+ \frac{n-2}{n-1} \int \sec^{n-2}xdx$ 
 \end{itemize}
 \subsection{Definite Integration}
 \subsubsection{Properties}
@@ -342,7 +342,7 @@ If $\varphi(x)=\int_{g(x)}^{h(x)}f(t)dt$, then
 $$\frac{d}{dx}(\varphi(x))=h'(x)f(h(x))-g'(x)f(g(x))$$
 \section{Other Integrals}
 \subsection{Wallis' Integral}
-$$\int_{0}^{\frac{\pi}{2}} sin^{n}xdx/\int_{0}^{\frac{\pi}{2}} cos^{n}xdx=
+$$\int_{0}^{\frac{\pi}{2}} \sin^{n}xdx/\int_{0}^{\frac{\pi}{2}} \cos^{n}xdx=
 \begin{cases}
   \frac{\pi}{2}\frac{(n-1)!}{n!}, \text{n is even}\ \\
   
