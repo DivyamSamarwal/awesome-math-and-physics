@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  4 JUN 2023 17:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  7 JUN 2023 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-15>
 (C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -193,76 +193,73 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
- (C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+)) (Algebra.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+
+(C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 
 (C:\Users\DIVYA\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 1852) in paragraph at lines 26--27
-\OT1/cmr/m/n/10 For ex-am-ple, if $\OML/cmm/m/it/10 A$ \OT1/cmr/m/n/10 is $\OMS
-/cmsy/m/n/10 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/i
-t/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; 
-\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OMS/cmsy/m/n/10 g$ \OT1/c
-mr/m/n/10 and $\OML/cmm/m/it/10 B$ \OT1/cmr/m/n/10 is
- []
+))
+\tf@toc=\write3
+\openout3 = `Algebra.toc'.
+
 
 [1
 
 {C:/Users/DIVYA/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-Overfull \hbox (44.36763pt too wide) detected at line 115
-\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = [] \OM
-L/cmm/m/it/10 > \OT1/cmr/m/n/10 0(\OML/cmm/m/it/10 < \OT1/cmr/m/n/10 0\OML/cmm/
-m/it/10 ; \OMS/cmsy/m/n/10 ^^T \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; or \OMS/cmsy
-/m/n/10 ^^U \OT1/cmr/m/n/10 0)
+Overfull \hbox (3.12836pt too wide) in paragraph at lines 27--28
+\OT1/cmr/m/n/12 For ex-am-ple, if $\OML/cmm/m/it/12 A$ \OT1/cmr/m/n/12 is $\OMS
+/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2\OML/cmm/m/i
+t/12 ; \OT1/cmr/m/n/12 3\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4\OMS/cmsy/m/n/12 g$
+ \OT1/cmr/m/n/12 and $\OML/cmm/m/it/12 B$ \OT1/cmr/m/n/12 is $\OMS/cmsy/m/n/12 
+f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4\OML/cmm/m/it/12 ; \OT1/c
+mr/m/n/12 5\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 6\OMS/cmsy/m/n/12 g$ \OT1/cmr/m/n
+/12 then $\OML/cmm/m/it/12 A \OMS/cmsy/m/n/12 [ \OML/cmm/m/it/12 B$ \OT1/cmr/m/
+n/12 is $\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 
+2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 3\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4\OML/c
+mm/m/it/12 ; \OT1/cmr/m/n/12 5\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 6\OMS/cmsy/m/n
+/12 g$\OT1/cmr/m/n/12 . 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
-[]$\OML/cmm/m/it/10 Zeros[]$\OT1/cmr/m/n/10 :The point for which $\OML/cmm/m/it
-/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ van-
+[3] [4] [5] [6]
+Overfull \hbox (14.69638pt too wide) in paragraph at lines 117--121
+\OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 n[]; n[]; n[]:::n[]$\OT1/cmr/m/n/12 , $
+\OML/cmm/m/it/12 m[]; m[]; m[]::m[]$ $\OMS/cmsy/m/n/12 2 \U/msb/m/n/12 N$ \OT1/
+cmr/m/n/12 and the num-bers $\OML/cmm/m/it/12 a[]; a[]; :::a[]$\OT1/cmr/m/n/12 
+, $\OML/cmm/m/it/12 b[]; b[]; :::b[]$
  []
 
-
-Underfull \hbox (badness 2452) in paragraph at lines 129--130
-\OT1/cmr/m/n/10 ishes(becomes zero) is called the $\OML/cmm/m/it/10 zeros$ \OT1
-/cmr/m/n/10 of
- []
-
-[3] [4] [5
-
-] (Algebra.aux) ) 
+[7] [8] [9] [10] (Algebra.aux) ) 
 Here is how much of TeX's memory you used:
- 2729 strings out of 476411
- 41397 string characters out of 5789134
- 1869845 words of memory out of 5000000
- 23085 multiletter control sequences out of 15000+600000
- 516458 words of font info for 48 fonts, out of 8000000 for 9000
+ 2751 strings out of 476411
+ 41728 string characters out of 5789134
+ 1860845 words of memory out of 5000000
+ 23098 multiletter control sequences out of 15000+600000
+ 519408 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,62p,499b,179s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\DIVYA\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
-/ec/dpi600\tcrm1000.pk><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DIVYA/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DIVYA/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DIVYA/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/DI
-VYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/
-Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.
-pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmr5.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr7.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Users/DIVYA/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Algebra.pdf (5 pages, 180563 bytes).
+ <C:\Users\DIVYA\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/DIVYA/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DIVYA/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DIVYA/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/DIVY
+A/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Us
+ers/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr6.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/DIVYA/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/DIVYA/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Algebra.pdf (10 pages, 166513 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

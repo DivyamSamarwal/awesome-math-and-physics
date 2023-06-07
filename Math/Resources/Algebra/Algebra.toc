@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Fundamental}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Intervals}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Sets and Relations}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}Set}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}Properties of sets}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}Results on number of elements in sets}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.4}Relations}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.5}Types of Relations}{5}{}%
+\contentsline {section}{\numberline {2}Quadratic Equations}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Equation and Basic Results}{6}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Results}{6}{}%
+\contentsline {subsection}{\numberline {2.2}Conditions for Common Root(s)}{7}{}%
+\contentsline {subsection}{\numberline {2.3}Wavy Curve Method}{7}{}%
+\contentsline {subsection}{\numberline {2.4}Quadratic Expression}{8}{}%
+\contentsline {subsection}{\numberline {2.5}Interval in which the roots lie}{8}{}%
+\contentsline {section}{\numberline {3}Progression and Series}{9}{}%
+\contentsline {subsection}{\numberline {3.1}Arithmetic Progression}{9}{}%
+\contentsline {subsection}{\numberline {3.2}Geometric Progression}{10}{}%
