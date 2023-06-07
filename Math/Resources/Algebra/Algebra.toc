@@ -17,3 +17,5 @@
 \contentsline {subsection}{\numberline {3.1}Arithmetic Progression}{9}{}%
 \contentsline {subsection}{\numberline {3.2}Geometric Progression}{10}{}%
 \contentsline {subsection}{\numberline {3.3}Harmonic Progression}{10}{}%
+\contentsline {subsection}{\numberline {3.4}Arithmetico-Geometric Progression}{11}{}%
+\contentsline {subsection}{\numberline {3.5}Misc. Progressions}{12}{}%

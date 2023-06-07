@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  7 JUN 2023 17:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.25)  7 JUN 2023 18:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -241,11 +241,26 @@ e $\OML/cmm/m/it/12 H:P:$ \OT1/cmr/m/n/12 if the se-quence $[]\OML/cmm/m/it/12
 ; []:::[]$
  []
 
-[10] [11] (Algebra.aux) ) 
+[10]
+Overfull \hbox (79.71442pt too wide) detected at line 182
+\OML/cmm/m/it/12 rS[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 abr \OT1/cmr/m/n/12 + 
+(\OML/cmm/m/it/12 a \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 d\OT1/cmr/m/n/12 )\OML/c
+mm/m/it/12 br[] \OT1/cmr/m/n/12 + (\OML/cmm/m/it/12 a \OT1/cmr/m/n/12 + 2\OML/c
+mm/m/it/12 d\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 br[] \OT1/cmr/m/n/12 + \OML/cmm/m
+/it/12 ::: \OT1/cmr/m/n/12 + (\OML/cmm/m/it/12 a \OT1/cmr/m/n/12 + (\OML/cmm/m/
+it/12 n \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 2)\OML/cmm/m/it/12 d\OT1/cmr/m/n/1
+2 )\OML/cmm/m/it/12 br[] \OT1/cmr/m/n/12 + (\OML/cmm/m/it/12 a \OT1/cmr/m/n/12 
++ (\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 1)\OML/cmm/m/it/12 d
+\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 br[] \OT1/cmr/m/n/12 + (\OML/cmm/m/it/12 a \O
+T1/cmr/m/n/12 + (\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 1)\OML
+/cmm/m/it/12 d\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 br[]
+ []
+
+[11] [12] (Algebra.aux) ) 
 Here is how much of TeX's memory you used:
  2751 strings out of 476411
  41728 string characters out of 5789134
- 1860845 words of memory out of 5000000
+ 1862845 words of memory out of 5000000
  23098 multiletter control sequences out of 15000+600000
  519408 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -265,9 +280,9 @@ ic/amsfonts/cm/cmsy10.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb><C:/Users/DIVYA/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/DIVYA/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Algebra.pdf (11 pages, 170745 bytes).
+Output written on Algebra.pdf (12 pages, 175388 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 106 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

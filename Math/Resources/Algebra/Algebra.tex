@@ -177,4 +177,24 @@ The $n$ number $H_1,H_2...H_n$ are said to be n-harmonic means between
 $a$ and $b$, if $a,H_1,H_2...H_n,b$ are in $H.P.$ if $\frac{1}{a},
 \frac{1}{H_1},\frac{1}{H_2}...\frac{1}{H_n},\frac{1}{b}$ are in $A.P.$ 
 $$\frac{1}{H_n}=\frac{1}{a}+\frac{n(a-b)}{(n+1)ab}$$
+\subsection{Arithmetico-Geometric Progression}
+The sum $S_n$ of first $n$ terms of an $A.G.P.$ is obtained in the following way: $$S_n=ab+(a+d)br+(a+2d)br^2+...+(a+(n-2)d)br^{n-2}+(a+(n-1)d)br^{n-1}$$ Multiplying both sides by $r$, so that
+$$rS_n=abr+(a+d)br^2+(a+2d)br^3+...+(a+(n-2)d)br^{n-2}+(a+(n-1)d)br^{n-1}+(a+(n-1)d)br^{n}$$
+Subtracting,we get $$S_n=\frac{ab}{1-r}+\frac{dbr(1-r^{n-1})}{(1-r)^2}- \frac{(a+(n-1)d)br^n}{1-r}$$
+If $-1<r<1$, the sum of infinite number of terms of progression is 
+$$\lim_{n \to \infty} S_n=S=\frac{ab}{1-r}+\frac{dbr}{(1-r)^2}$$
+\subsection{Misc. Progressions}
+\textbf{Some Important Results:}
+\begin{itemize}
+\item $1+2+3+...+n=\frac{n(n+1)}{2}$
+\item $1^2+2^2+3^2+...+n^2=\frac{n(n+1)(2n+1)}{6}$
+\item $1^3+2^3+3^3+...+n^3=\frac{n^2(n+1)^2}{4}=(1+2+3+...+n)^2$
+\item $1+x+x^2+x^3+...=(1-x)^{-1}$ if $-1<x<1$
+\item $1+2x+3x^2+4x^3+...=(1-x)^{-2}$ if $-1<x<1$
+\end{itemize}
+\textbf{Method of Differences:}\\
+Suppose $a_1,a_2,a_3...a_n$ is a sequence such that sequence $a_2-a_1,a_3-a_2...$ is either an $A.P.$ or a $G.P.$ The $nth$ term $a_n$ of this sequence is obtained as follows:
+$$S_n=a_1+a_2+a_3+...+a_{n-2}+a_{n-1}+a_n$$
+$$\implies a_n=a_1+[(a_2-a_1)+(a_3-a_2)+...+(a_n-a_{n-1})]$$
+Since the term within the brackets are either in an $A.P.$ or in a $G.P.$, we can find the value of $a_n$ the $nth$ term. We can now find the sum of $n$ terms of sequence as $$S=\sum_{k=1}^{n} a_k$$
 \end{document}
