@@ -1,7 +1,7 @@
 # Project Outlines
 <p align="center">
     <a href="https://github.com/DivyamSamarwal/awesome-math-and-physics"><img src="https://github.com/DivyamSamarwal/awesome-math-and-physics/blob/main/Images/outlines.png"></a>
-    <i>Maths and physics.</i>
+    <i>Maths and Physics.</i>
 </p>
 
 This repository contains of material of [Physics]() and [Mathematics](https://github.com/DivyamSamarwal/awesome-math-and-physics/tree/main/Math/Resources)( High School and Early University level).
