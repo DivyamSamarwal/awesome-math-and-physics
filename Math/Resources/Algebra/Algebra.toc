@@ -19,3 +19,6 @@
 \contentsline {subsection}{\numberline {3.3}Harmonic Progression}{10}{}%
 \contentsline {subsection}{\numberline {3.4}Arithmetico-Geometric Progression}{11}{}%
 \contentsline {subsection}{\numberline {3.5}Misc. Progressions}{12}{}%
+\contentsline {subsection}{\numberline {3.6}Inequalities}{12}{}%
+\contentsline {section}{\numberline {4}Binomial Theorem}{13}{}%
+\contentsline {subsection}{\numberline {4.1}Basic Results}{13}{}%
