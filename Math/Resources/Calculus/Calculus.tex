@@ -109,7 +109,13 @@ where $F(x)=2H(x-1)-1$ and $H(x)$ is Oliver Heaviside step function.
 \item $\lim_{x \to \infty} \frac{n}{\sqrt[n]{n!}}=e$
 \item $\lim_{x \to \infty} 2^n \sqrt{2- \sqrt{2 + \sqrt{2 +...+ \sqrt{2}}}}= \pi $
 \end{itemize}
-\subsection{Taylor Series}
+\subsection{Expansions}
+\subsubsection{Taylor Series}
+$$f(x)=f(a)+\frac{f'(a)}{1!}(x-a)+\frac{f''(a)}{2!}(x-a)^2+\frac{f'''(a)}{3!}(x-a)^3+...$$
+$$\sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n$$
+\subsubsection{Maclaurin Series}
+$$f(x)=f(0)+\frac{f'(0)}{1!}(x)+\frac{f''(0)}{2!}(x)^2+\frac{f'''(0)}{3!}(x)^3+...$$
+$$\sum_{n=0}^{\infty} \frac{f^{(n)}(0)}{n!}(x)^n$$
 $$e^x = 1 + \frac{x}{1!}+ \frac{x^{2}}{2!}+ \frac{x^{3}}{3!}+...+ \infty$$
 $$ln(1+x) = x - \frac{x^{2}}{2}+ \frac{x^{3}}{3}- \frac{x^{4}}{4}+...+ \infty$$
 $$ln(1-x) = -(x + \frac{x^{2}}{2}+ \frac{x^{3}}{3}+ \frac{x^{4}}{4}+...+ \infty)$$
@@ -347,6 +353,13 @@ $$\int_{0}^{\frac{\pi}{2}} \sin^{m}x \cos^{n}xdx=
   \frac{\pi}{2}\frac{(m-1)!!(n-1)!!}{(m+n)!!}, \text{when m and n both are even.}\ \\
   
   \frac{(m-1)!!(n-1)!!}{(m+n)!!},\text{else}\
+\end{cases} $$
+$$\int_{0}^{\frac{\pi}{2}} \sin^{n}x /  \int_{0}^{\frac{\pi}{2}}\cos^{n}xdx=
+\begin{cases}
+  \frac{\pi}{2}, \text{n=0}\ \\
+  1, \text{n=1}\ \\
+  \frac{2}{3} \cdot \frac{4}{5} \cdot \frac{6}{7} \cdot \cdot \cdot    \frac{n-1}{n}, \text{when n is odd n $\geq$ 3 }\ \\
+  \frac{1}{2} \cdot \frac{3}{4} \cdot \frac{5}{6} \cdot \cdot \cdot \frac{n-1}{n} \cdot \frac{\pi}{2}, \text{when n is even n $\geq$ 2 }\
 \end{cases} $$
 \subsection{Pi Function}
 $$\Pi(n)= \int_{0}^{\infty}x^{n}e^{-x}dx$$
