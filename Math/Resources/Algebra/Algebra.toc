@@ -22,3 +22,6 @@
 \contentsline {subsection}{\numberline {3.6}Inequalities}{12}{}%
 \contentsline {section}{\numberline {4}Binomial Theorem}{13}{}%
 \contentsline {subsection}{\numberline {4.1}Basic Results}{13}{}%
+\contentsline {subsection}{\numberline {4.2}Properties of Binomial Coefficient}{13}{}%
+\contentsline {subsection}{\numberline {4.3}Basic Properties of Binomial Expansion of pow(a+x,n)}{13}{}%
+\contentsline {subsection}{\numberline {4.4}Multinomial Expansion}{14}{}%

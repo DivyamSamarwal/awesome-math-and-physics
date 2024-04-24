@@ -189,6 +189,7 @@ $$\lim_{n \to \infty} S_n=S=\frac{ab}{1-r}+\frac{dbr}{(1-r)^2}$$
 \item $1+2+3+...+n=\frac{n(n+1)}{2}$
 \item $1^2+2^2+3^2+...+n^2=\frac{n(n+1)(2n+1)}{6}$
 \item $1^3+2^3+3^3+...+n^3=\frac{n^2(n+1)^2}{4}=(1+2+3+...+n)^2$
+\item $1^4+2^4+3^4+...+n^4=\frac{n(n+1)(2n+1)(3n^2+3n+1)}{30}$
 \item $1+x+x^2+x^3+...=(1-x)^{-1}$ if $-1<x<1$
 \item $1+2x+3x^2+4x^3+...=(1-x)^{-2}$ if $-1<x<1$
 \end{itemize}
@@ -205,6 +206,28 @@ $$H=\frac{n}{(\frac{1}{a_1}+\frac{1}{a_2}+...+\frac{1}{a_n})}$$
 \section{Binomial Theorem}
 12 June 2023
 \subsection{Basic Results}
-$$(a+x)^n=^nC_0a^n+^nC_1a^{n-1}x+^nC_2a^{n-2}x^2+...+^nC_ra^{n-r}x^r+...+^nC_nx^n=\sum_{r=0}^{n} \medspace ^nC_rx^r. a^{n-r} $$
-$$(a-x)^n=^nC_0-^nC_1a^{n-1}x+^nC_2a^{n-2}x^2-...+(-1)^r \medspace ^nC_ra^{n-r}x^r+...+(-1)^n \medspace ^nC_nx^n.a^{n-r} $$
+$$(a+x)^n=\binom{n}{0}a^n+ \binom{n}{1}a^{n-1}x+\binom{n}{2}a^{n-2}x^2+...+ \binom{n}{r}a^{n-r}x^r+...+ \binom{n}{n}x^n=\sum_{r=0}^{n}\binom{n}{r}x^r. a^{n-r} $$
+$$(a-x)^n=\binom{n}{0}-\binom{n}{1}a^{n-1}x+\binom{n}{0}a^{n-2}x^2-...+(-1)^n \medspace \binom{n}{n}x^n.a^{n-r}=\sum_{r=0}^{n}(-1)^r \binom{n}{r} x^r$$
+\subsection{Properties of Binomial Coefficient}
+\begin{itemize}
+\item $\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+...+\binom{n}{n}=2^n$
+\item $\binom{n}{0}+\binom{n}{2}+\binom{n}{4}+...=\binom{n}{1}+\binom{n}{3}+\binom{n}{5}+...=2^{n-1}$
+\item $\binom{n}{r}+\binom{n}{r-1}=\binom{n+1}{r}$
+\item $\frac{ \binom{n}{r} }{ \binom{n}{r-1}}=\frac{n-r+1}{r}$
+\item $r\binom{n}{r}=n\binom{n-1}{r-1}$
+\end{itemize}
+\subsection{Basic Properties of Binomial Expansion of pow(a+x,n)}
+\begin{itemize}
+\item There are n+1 terms in expansion.
+\item Binomial coefficients of the terms equidistant from beginning and end are equal.
+\item General term of the expansion is $T_{r+1}=\binom{n}{r}a^{n-r}x^r$
+\item Binomial coefficient of middle term is greatest binomial coefficient occurring in the expansion.
+\end{itemize}
+\subsection{Multinomial Expansion}
+In the expansion $(x_1+x_2+...+x_n)^m$ where $m,n \in \mathbb{N}$ and $x_1,x_2,...,x_n$ are independent variables,
+\begin{itemize}
+\item Total number of terms in expansion $\binom{m+n-1}{n-1}$
+\item Coefficient of $x_1^{r_1}x_2^{r_2}... x_n^{r_n}$ (where $\sum_{r=1}^{n}r_i=m,r_i \in \mathbb{N} \cup [0]$) is $\frac{m!}{r_1! r_2! ... r_n!}$
+\item Sum of all coefficient is obtained by putting all the variables $x_i$ equal to 1 and is $n^m$
+\end{itemize}
 \end{document}
